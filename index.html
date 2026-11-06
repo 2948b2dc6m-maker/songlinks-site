@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SongLinks Support</title>
+<meta name="description" content="Get help with SongLinks, the music party game for iPhone.">
+<style>
+:root {
+  --bg0: #070712;
+  --bg1: #141428;
+  --text: #efeaf8;
+  --muted: #b7b0c9;
+  --line: rgba(255,255,255,.1);
+  --cyan: #5ee7ff;
+  --magenta: #ff4fd8;
+  --card: rgba(255,255,255,.045);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  min-height: 100vh;
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Avenir Next, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  background:
+    radial-gradient(900px 420px at 50% -80px, rgba(255,79,216,.18), transparent 55%),
+    radial-gradient(700px 360px at 110% 10%, rgba(94,231,255,.12), transparent 50%),
+    linear-gradient(180deg, var(--bg0), var(--bg1) 40%, #0b0b18);
+}
+a { color: var(--cyan); text-decoration: none; }
+a:hover { color: #fff; text-decoration: underline; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 28px 22px 64px; }
+header {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; padding-bottom: 22px; margin-bottom: 28px;
+  border-bottom: 1px solid var(--line);
+}
+.brand { font-weight: 800; font-size: 1.35rem; letter-spacing: -0.03em; color: #fff; }
+.brand span:first-child { color: var(--cyan); }
+.brand span:last-child { color: var(--magenta); }
+.tag { display: block; margin-top: 2px; font-size: .78rem; font-weight: 500; color: var(--muted); letter-spacing: 0; }
+nav { display: flex; gap: 18px; font-size: .95rem; }
+nav a.active { color: #fff; }
+h1 { font-size: 2rem; letter-spacing: -0.03em; margin: 0 0 .4em; }
+h2 { font-size: 1.2rem; margin: 2em 0 .6em; color: #fff; }
+.lede, .meta { color: var(--muted); }
+.faq { display: grid; gap: 14px; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 16px 18px;
+}
+.card h3 { margin: 0 0 .35em; font-size: 1.02rem; }
+.card p, .card ol { margin: 0; color: #e7e2f2; }
+.card ol { padding-left: 1.15em; }
+.card li + li { margin-top: .25em; }
+table { width: 100%; border-collapse: collapse; margin: 1em 0 1.4em; font-size: .95rem; }
+th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+th { color: var(--cyan); font-weight: 650; background: rgba(94,231,255,.06); }
+td { color: #e7e2f2; }
+ul { padding-left: 1.15em; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+footer {
+  margin-top: 48px; padding-top: 22px; border-top: 1px solid var(--line);
+  color: var(--muted); font-size: .92rem;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div>
+    <div class="brand"><span>Song</span><span>Links</span>™</div>
+    <span class="tag">Name a song. Link the words.</span>
+  </div>
+  <nav>
+    <a href="index.html" class="active">Support</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+</header>
+<main>
+<h1>Support</h1>
+<p class="lede">Need help? Email <a href="mailto:songlinks.app@gmail.com">songlinks.app@gmail.com</a>. We read every message.</p>
+<h2>Quick FAQ</h2>
+<div class="faq">
+<article class="card"><h3>What is SongLinks?</h3><p>A music party game for iPhone. A song plays. On your turn, name a real song title and artist that shares a word with it. Keep the chain going.</p></article>
+<article class="card"><h3>How many players?</h3><p>1–6 players around one iPhone, or a solo game.</p></article>
+<article class="card"><h3>How do we play?</h3>
+<ol>
+<li>Set the iPhone on the table where everyone can see and hear it.</li>
+<li>A song plays. Its title and artist give you the words to link from.</li>
+<li>On your turn, tap the mic and say a song title and artist that shares one of those words.</li>
+<li>Get it right and everyone hears your song. Miss and it’s a strike.</li>
+</ol>
+</article>
+<article class="card"><h3>Why does SongLinks need the microphone and speech recognition?</h3><p>So you can say your guess out loud. The mic is only on after you tap it on your turn. SongLinks doesn’t record or save your voice.</p></article>
+<article class="card"><h3>I tapped “Don’t Allow.” How do I turn the mic back on?</h3><p>Go to your iPhone’s <strong>Settings &gt; SongLinks &gt; Microphone</strong> and turn it on. Turn on <strong>Speech Recognition</strong> there too.</p></article>
+<article class="card"><h3>Do I need a Bluetooth speaker?</h3><p>It’s optional but recommended to fill the room with music. Keep the iPhone on the table, because answers still go through the phone’s mic.</p></article>
+<article class="card"><h3>Can I make the text bigger?</h3><p>Yes. SongLinks supports larger text sizes (iPhone Settings &gt; Display &amp; Brightness &gt; Text Size).</p></article>
+<article class="card"><h3>Does it work on iPad?</h3><p>SongLinks is made for iPhone.</p></article>
+<article class="card"><h3>Do I need an internet connection?</h3><p>Yes. Songs and previews come from the iTunes Store over the internet.</p></article>
+<article class="card"><h3>Do I need an account?</h3><p>No. Just open it and play. If you’re signed in to Game Center, you can also see the SongLinks leaderboards: High Scores, Daily Challenge, and Daily Challenge: All-Time. Game Center data is handled by Apple under its terms.</p></article>
+<article class="card"><h3>It didn’t understand my guess.</h3><p>Speak clearly and say both the title and the artist. A quieter room helps.</p></article>
+</div>
+<h2>Privacy</h2>
+<p>Read our <a href="privacy.html">Privacy Policy</a>.</p>
+<h2>Contact</h2>
+<p><a href="mailto:songlinks.app@gmail.com">songlinks.app@gmail.com</a></p>
+</main>
+<footer>
+  <p>Need help? Email <a href="mailto:songlinks.app@gmail.com">songlinks.app@gmail.com</a></p>
+  <p>© 2026 SongLinks · <a href="index.html">Support</a> · <a href="privacy.html">Privacy</a></p>
+</footer>
+</div>
+</body>
+</html>
